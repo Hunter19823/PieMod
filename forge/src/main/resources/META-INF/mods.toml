@@ -1,33 +1,33 @@
 modLoader = "javafml"
 loaderVersion = "[40,)"
 #issueTrackerURL = ""
-license = "Insert License Here"
+license = "Creative Commons Liscence"
 
 [[mods]]
-modId = "examplemod"
+modId = "piemod"
 version = "${version}"
-displayName = "Example Mod"
-authors = "Me!"
+displayName = "The Pie Mod"
+authors = "ILIKEPIEFOO2"
 description = '''
-This is an example description! Tell everyone what your mod is about!
+Welcome to the Pie Mod!
 '''
 #logoFile = ""
 
-[[dependencies.examplemod]]
+[[dependencies.piemod]]
 modId = "forge"
 mandatory = true
 versionRange = "[40,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.examplemod]]
+[[dependencies.piemod]]
 modId = "minecraft"
 mandatory = true
 versionRange = "[1.18.2,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.examplemod]]
+[[dependencies.piemod]]
 modId = "architectury"
 mandatory = true
 versionRange = "[4.9.83,)"

@@ -1,27 +1,27 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "piemod",
   "version": "${version}",
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Pie Mod",
+  "description": "Welcome to the Pie Mod!",
   "authors": [
-    "Me!"
+    "ILIKEPIEFOO2"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/Hunter19823/PieMod",
+    "sources": "https://github.com/Hunter19823/PieMod"
   },
-  "license": "Insert License Here",
-  "icon": "assets/examplemod/icon.png",
+  "license": "Creative Commons Licence",
+  "icon": "assets/piemod/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.examplemod.fabric.ExampleModFabric"
+      "pie.ilikepiefoo.fabric.PieModFabric"
     ]
   },
   "mixins": [
-    "examplemod.mixins.json",
-    "examplemod-common.mixins.json"
+    "piemod.mixins.json",
+    "piemod-common.mixins.json"
   ],
   "depends": {
     "fabric": "*",
